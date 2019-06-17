@@ -1,22 +1,74 @@
-A very simple HTML5 version of Tetris, for educational purposes, made in 45 minutes.
+# canvas-tetris
 
-Watch the making-of timelapse:
-http://www.youtube.com/watch?v=GQTZ_TPxJhM
+TETRIS with HTML5 Canvas, with [Obniz](https://obniz.io/) switch controls.
 
-Play:
-https://dionyziz.com/graphics/canvas-tetris/
 
-Or you can [play it here](https://plugins.quadnix.com/launch?author=quadnix&id=canvas-tetris),
-powered by [Quadnix Plugins](https://plugins.quadnix.com).
+## Overview
 
-License
-=======
-This version of tetris is MIT licensed:
+**canvas-tetris** is originally developed with **Dionysis Zindros**, and I have forked and customized with Obniz switch control feature.
 
-Copyright (C) 2012 Dionysis "dionyziz" Zindros <dionyziz@gmail.com>
+See following link for original codes:
 
-Permission is hereby granted, free of charge, to any person obtaining a copy of this software and associated documentation files (the "Software"), to deal in the Software without restriction, including without limitation the rights to use, copy, modify, merge, publish, distribute, sublicense, and/or sell copies of the Software, and to permit persons to whom the Software is furnished to do so, subject to the following conditions:
+https://github.com/dionyziz/canvas-tetris
 
-The above copyright notice and this permission notice shall be included in all copies or substantial portions of the Software.
 
-THE SOFTWARE IS PROVIDED "AS IS", WITHOUT WARRANTY OF ANY KIND, EXPRESS OR IMPLIED, INCLUDING BUT NOT LIMITED TO THE WARRANTIES OF MERCHANTABILITY, FITNESS FOR A PARTICULAR PURPOSE AND NONINFRINGEMENT. IN NO EVENT SHALL THE AUTHORS OR COPYRIGHT HOLDERS BE LIABLE FOR ANY CLAIM, DAMAGES OR OTHER LIABILITY, WHETHER IN AN ACTION OF CONTRACT, TORT OR OTHERWISE, ARISING FROM, OUT OF OR IN CONNECTION WITH THE SOFTWARE OR THE USE OR OTHER DEALINGS IN THE SOFTWARE.
+## How to play TETRIS(original)
+
+You can play TETRIS with just loading index.html, which does **NOT** has to be uploaded on HTTP server(You can open local index.html file with your browser).
+
+- Left: left
+
+- Right: right
+
+- Up: rotate
+
+- Down: down
+
+- Space: drop
+
+
+## How to play TETRIS with Obniz
+
+At first, your Obniz need to be connected to internet with WiFi.
+
+Before playing with Obniz, you need to edit and save **js/controller.js** with your own Obniz ID:
+
+```
+  :
+//. obniz
+var obniz = new Obniz("XXXX-XXXX"); //. <-- Edit with your own Obniz ID
+  :
+```
+
+After edit, you can control TETRIS not only with keyboards, but also with your Obniz switch:
+
+- Left: left
+
+- Right: right
+
+- Push: rotate
+
+
+## Licensing
+
+This code is licensed under MIT.
+
+https://github.com/dotnsf/canvas-tetris/blob/master/MIT-LICENSE.txt
+
+
+## Copyright
+
+2019 [K.Kimura @ Juge.Me](https://github.com/dotnsf) all rights reserved.
+
+
+## Original License
+
+This software was originally developed by [Dionysis Zindros](https://github.com/dionyziz) in 2012 with [MIT license](https://github.com/dionyziz/canvas-tetris/blob/master/LICENSE.md).
+
+https://github.com/dionyziz/canvas-tetris
+
+
+This versions of software was forked and customized by [K.Kimura @ Juge.Me](https://github.com/dotnsf) in 2019 with [MIT license](https://github.com/dotnsf/canvas-tetris/blob/master/MIT-LICENSE.txt).
+
+
+I appreciate for your distribution, Dionysis.
