@@ -31,7 +31,7 @@ You can play TETRIS with just loading index.html, which does **NOT** has to be u
 
 At first, your Obniz need to be connected to internet with WiFi.
 
-Before playing with Obniz, you need to edit and save **js/controller.js** with your own Obniz ID:
+Before playing with Obniz, you can edit and save **js/controller.js** with your own Obniz ID:
 
 ```
   :
@@ -40,7 +40,9 @@ var obniz = new Obniz("XXXX-XXXX"); //. <-- Edit with your own Obniz ID
   :
 ```
 
-After edit, you can control TETRIS not only with keyboards, but also with your Obniz switch:
+Or even when you didn't edit and start it, you will be asked Obniz ID first.
+
+Then you can control TETRIS not only with keyboards, but also with your Obniz switch:
 
 - Left: left
 
